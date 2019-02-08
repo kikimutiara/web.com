@@ -1,0 +1,761 @@
+.main-nav{
+    background-color: #333232;
+    height: 100vh;
+    width: 100%;
+    
+}
+
+.main-nav .logo a{
+    color: white;
+    font-size: 30px;
+    display: inline-block;
+    margin-top: 22px;
+    margin-left: 30px;
+    position: relative;
+}
+
+.main-nav a{
+    text-decoration: none;
+}
+
+.navbar{
+    visibility: none;
+}
+
+.contact-btn:visited,
+.contact-btn:link{
+    -webkit-transition: background-color 0.2s;
+    transition: background-color 0.2s;
+    font-size: 90%;
+    border: 1.5px solid #FDFEFF;
+    border-radius: 40px;
+    padding: 7px 13px 6px 12px;
+    color: white;
+}
+
+.contact-btn:hover,
+.contact-btn:active{
+    background-color: #FCB117;
+}
+
+.main-nav li{
+    display: inline-block;
+    margin-right: 40px;
+}
+
+.nav-btn:visited,
+.nav-btn:link{
+    -webkit-transition: color 0.2s;
+    transition: color 0.2s;
+    color: white;
+}
+
+.nav-btn:active,
+.nav-btn:hover{
+    color: #FCB117;
+}
+
+.on{
+    color: #FCB117;
+}
+
+.main-nav ul{
+    position: absolute;
+    right: 20px;
+    top: 10px;
+    font-size: 14px;
+}
+.main-nav .text-back{
+    font-family: Futura PT;
+    color: rgba(102, 103, 104, 0.19);
+    font-size: 480px;
+    margin-left: 120px;
+    margin-top: 70px;
+    overflow: hidden;
+    font-weight: 1000;
+}
+
+.main-nav img{
+    position: absolute;
+    top: 120px;
+    left: 180px;
+    width: 30%;
+}
+
+.tag-line{
+    position: absolute;
+    font-size: 60px;
+    color: #F4F6F9;
+    width: 500px;
+    top: 35%;
+    left: 75%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.description{
+    position: absolute;
+    font-size: 18px;
+    color: rgba(250, 251, 252, 0.89);
+    width: 500px;
+    top: 60%;
+    left: 75%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    font-weight: 100;
+}
+
+.main-nav ion-icon{
+    font-size: 30px;
+    color: #FFFFFF;
+    background-color: #FCB117;
+    position: absolute;
+    border-radius: 50%;
+    padding: 8px;
+    left: 59%;
+    top: 70%;
+}
+
+.main-nav .number{
+    position:absolute;
+    bottom: 5px;
+    left: 70px;
+    font-size: 20px;
+    color: #F4F6F9;
+}
+
+.main-nav .slide{
+    background-color: rgba(96, 96, 96, 0.49);
+    position: absolute;
+    height: 3px;
+    width: 60px;
+    left: 110px;
+    bottom: 20px;
+    z-index: 20;
+}
+
+.main-nav .full-bar{
+    background-color: #F4F6F9;
+    position: absolute;
+    width: 240px;
+    height: 3px;
+    bottom: 20px;
+    left: 110px;
+}
+
+/*about*/
+
+.about table{
+    height: 400px;
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+    color: #1D1E1E;
+}
+
+.about img{
+    width: 7%;
+    position: absolute;
+    margin-left: -150px;
+}
+
+.about p{
+    color: rgba(29, 30, 30, 0.89);
+    text-align: center;
+    font-size: 20px;
+    padding-left: 100px;
+}
+
+/*course*/
+.course{
+    background-color: rgba(150, 163, 181, 0.08);
+    height: 800px;
+}
+
+.course h2{
+    color: #0B0B0B;
+    margin-left: 100px;
+    padding-top: 70px;
+    font-size: 40px;
+}
+
+.course div{
+    margin-top: 120px;
+}
+
+.course .first{
+    width: 250px;
+    height: 250px;
+    background-color: #333232;
+    margin-left: 10%;
+    color: #F6F7F8;
+    text-align: center;
+    border-radius: 20px;
+    display: inline-block;
+}
+
+.course .second{
+    width: 280px;
+    height: 280px;
+    display: inline-block;
+    position: relative;
+    background-color: #333232;
+    margin-left: 10%;
+    color: #FCB117;
+    text-align: center;
+    border-radius: 20px;  
+}
+
+.course .third{
+    width: 250px;
+    height: 250px;
+    display: inline-block;
+    background-color: #333232;
+    margin-left: 10%;
+    color: #F6F7F8;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.course h3{
+    font-size: 80px;
+}
+
+.course p{
+    font-size: 20px;
+    margin-top: -50px;
+}
+
+.second h3{
+    font-size: 200px;
+    margin-top: 0px;
+    margin-bottom: 40px;
+}
+
+.third h3{
+    font-size: 200px;
+    margin-top: 0px;
+    margin-bottom: 30px;
+}
+
+.course .number{
+    position:relative;
+    top: 160px;
+    display: block;
+    width: 50px;
+    left: 70px;
+    font-size: 20px;
+    color: #7F8080;
+}
+
+.course .slide{
+    background-color: rgba(252, 177, 23, 0.80);
+    position: relative;
+    height: 3px;
+    width: 60px;
+    left: 200px;
+    top: 175px;
+    z-index: 20;
+}
+
+.course .full-bar{
+    background-color: rgba(127, 128, 128, 0.36);
+    position: relative;
+    width: 240px;
+    height: 3px;
+    top: 202px;
+    left: 110px;
+}
+
+.course .show-more{
+    text-align: center;
+    position: absolute;
+    right: 100px;
+    margin-top: 160px;
+    border-radius: 20px;
+    padding: 10px 6px 10px 6px;
+    width: 130px;
+    background-color: #FCB117;
+    color: #FFFFFF;
+    font-size: 18px;
+}
+
+/*programs*/
+.programs{
+    height: 650px;
+    background-color: #FFFFFF;
+}
+
+.programs img{
+    width: 40%;
+    margin-top: 90px;
+    margin-left: 120px;
+}
+
+.programs h2{
+    width: 350px;
+    position: relative;
+    left: 860px;
+    font-size: 40px;
+    bottom: 400px;
+}
+
+.programs p{
+    width: 350px;
+    position: relative;
+    left: 860px;
+    font-size: 25px;
+    bottom: 360px;
+}
+
+.programs a:link,
+.programs a:visited{
+    position: absolute;
+    right: 250px;
+    margin-top: -330px;
+    margin-bottom: 120px;
+    background-color: #FCB117;
+    padding: 10px 15px 10px 15px;
+    border-radius: 40px;
+    text-decoration: none;
+    color: white;
+    -webkit-transition: background-color 0.2s;
+    transition: background-color 0.2s;
+}
+
+.programs a:hover,
+.programs a:active{
+    background-color: rgb(255, 186, 44);
+}
+
+.universities{
+    height: 450px;
+}
+
+.universities h2{
+    width: 500px;
+    position: relative;
+    left: 100px;
+    top: 100px;
+    font-size: 40px;
+}
+
+.universities .para{
+    width: 500px;
+    position: relative;
+    left: 100px;
+    top: 130px;
+    font-size: 25px;
+}
+
+.universities img{
+    width: 10%;
+    display: inline-block;
+    position: absolute;
+}
+
+.universities .nus{
+    right: 700px;
+    margin-top: -130px;
+}
+
+.universities .ui{
+    right: 500px;
+    margin-top: -120px;
+}
+
+.universities .prasmul{
+    right: 300px;
+    margin-top: -120px;
+}
+
+.universities .itb{
+    right: 100px;
+    margin-top: -120px;
+}
+
+.universities .nus-p,
+.ui-p,
+.prasmul-p,
+.itb-p{
+    display: inline-block;
+    right: 0;
+    position: absolute;
+    text-align: center;
+}
+
+.universities .nus-p{
+    right: 700px;
+    margin-top: 70px;
+}
+
+.universities .ui-p{
+    right: 535px;
+    margin-top: 70px;
+}
+
+.universities .prasmul-p{
+    right: 320px;
+    margin-top: 70px;
+}
+
+.universities .itb-p{
+    right: 115px;
+    margin-top: 70px;
+}
+
+.facility{
+    color: #FFFFFF;
+    background-color: #333232;
+    height: 750px;
+}
+
+.facility h2{
+    font-size: 40px;
+    position: relative;
+    left: 100px;
+    top: 100px;
+    width: 400px;
+}
+
+.facility table{
+    width: 100%;
+    margin-top: 150px;
+    text-align: center;
+    font-size: 120%;
+}
+
+.facility img{
+    width: 60%; 
+}
+
+td p{
+    text-align: left;
+    padding-left: 120px;
+    width: 300px;
+}
+
+.teach{
+    height: 600px;  
+    background-image: url("../img/job.png");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.teach h2{
+    font-size: 40px;
+    position: absolute;
+    width: 400px;
+    right: 200px;
+    margin-top: 180px;
+    color: white;
+}
+
+.teach p{
+    font-size: 20px;
+    position: absolute;
+    width: 400px;
+    right: 200px;
+    margin-top: 320px;
+    color: white;
+}
+
+.teach a{
+    position: absolute;
+    right: 490px;
+    margin-top: 450px;
+    background-color: #FCB117;
+    padding: 10px 23px 10px 23px;
+    border-radius: 20px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.social-media{
+    height: 500px;
+}
+
+.social-media h2{
+    font-size: 40px;
+    position: relative;
+    left: 100px;
+    top: 50px;
+    width: 400px;
+}
+
+.social-media img{
+    width: 4%;
+    position: relative;
+    left: 100px;
+    top: 50px;
+}
+
+.social-media p{
+    width: 400px;
+    position: relative;
+    font-size: 18px;
+    left: 170px;
+    top: -10px;
+}
+
+footer{
+    color: #FFFFFF;
+    background-color: #333232;
+    height: 200px;
+}
+
+footer li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 30px;
+    margin-top: 40px;
+}
+
+footer a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+footer p{
+    margin-top: 100px;
+    margin-left: 40px;
+    color: rgba(255, 255, 255, 0.36);
+}
+   
+
+/* About Us page */
+
+.about-us{
+    height: 500px;
+}
+
+.about-us .text-back{
+    margin-top: 0;
+}
+
+.about-us h1{
+    color: #F4F6F9;
+    font-size: 50px;
+    text-align: center;
+    margin-top: -300px;
+}
+
+.know-us{
+    height: 400px;
+}
+
+.know-us h2{
+    font-size: 40px;
+    margin-top: 100px;
+    margin-left: 130px;
+    color: #1D1E1E;
+}
+
+.know-us p{
+    margin-left: 130px;
+    font-size: 18px;
+    color: #1D1E1E;
+    margin-top: 20px;
+}
+
+.know-us a{
+    left: 130px;
+    margin-top: 50px;
+    position: absolute;
+    background-color: #FCB117;
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 10px 15px 10px 15px;
+    border-radius: 40px;
+}
+
+
+/*Jobs page */
+.position{
+    margin-left: 180px;
+    margin-top: 120px;
+    margin-bottom: 120px;
+}
+
+.position h2{
+    font-size: 40px;
+    font-weight: lighter;
+}
+
+.position h3{
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.position p{
+    font-size: 25px;
+    line-height: 30px;
+    margin-bottom: 60px;
+}
+
+.position input{
+    background-color: #FCB117;
+    border-radius: 30px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+    -webkit-transition: background-color 0.2s;
+    transition: background-color 0.2s;
+    -webkit-box-shadow: 1px 1px 5px black;
+    box-shadow: 1px 1px 5px black;
+}
+
+.position input:hover{
+    background-color: #ffab00;
+}
+
+/*Contact Now*/
+.contact-now{
+    margin-left: 120px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+
+.contact-now h2{
+    font-size: 40px;
+}
+input[name="name"]{
+    display: block;
+    margin-bottom: 30px;
+}
+
+input[name="_replyto"]{
+    display: block;
+    margin-bottom: 30px;
+}
+
+textarea{
+    width: 300px;
+    height: 150px;
+    display: block;
+    margin-bottom: 40px;
+}
+
+input[name="submit"]{
+    background-color: #FCB117;
+    border: none;
+    border-radius: 30px;
+    padding: 10px 30px 10px 30px;
+    font-size: 20px;
+    color: white;
+}
+
+.social-link{
+    padding-top: 60px;
+}  
+
+.social-link h3{
+    font-size: 25px;
+}
+
+.social-link img{
+    width: 50px;
+    padding-top: 40px;
+}
+
+.social-link p{
+    margin-top: -35px;
+    margin-left: -35px;
+}
+
+.address{
+    padding-left: 100px;
+}
+
+.address h3{
+    font-size: 25px;
+    margin-top: 90px;
+}
+
+.address p{
+    margin-left: -120px;
+    font-size: 20px;
+}
+
+.address .short{
+    padding-top: 30px;
+    font-weight: bold;
+}
+
+/* service best tutor */
+
+.best-tutor h2{
+    margin-left: 100px;
+    font-size: 40px;
+    margin-bottom: 60px;
+    margin-top: 60px
+}
+
+.best-tutor td{
+    width: 400px;
+    padding-left: 120px;
+}
+
+.best-tutor p{
+    display: inline;
+    padding-left: 60px;
+    vertical-align: 20px;
+    font-size: 20px;
+}
+
+.best-tutor img{
+    height: 60px;
+}
+
+/* service expert */
+
+.expert h2{
+    margin-top: 60px;
+    margin-left: 100px;
+    margin-bottom: 60px;
+    font-size: 40px;
+}
+
+.expert td{
+    width: 400px;
+    padding-left: 120px;
+}
+
+.expert p{
+    display: inline;
+    padding-left: 60px;
+    vertical-align: 20px;
+    font-size: 20px;
+}
+
+.expert img{
+    height: 60px;
+}
+
+/* service home tutor */
+
+.home-tutor h2{
+    margin-top: 60px;
+    margin-left: 100px;
+    margin-bottom: 60px;
+    font-size: 40px;
+}
+
+.home-tutor p{
+    display: inline;
+    padding-left: 60px;
+    vertical-align: 20px;
+    font-size: 20px;
+}
+
+.home-tutor img{
+    height: 60px;
+    margin-left: 120px;
+}
+
+
+
