@@ -19,10 +19,11 @@
     }
     
     .tag-line{
-        margin-top: 230px;
+        margin-top: 240px;
         width: 300px;
         margin-right: 0px;
         margin-left: -100px;
+        font-size: 40px;
     }
     
     .description{
@@ -34,6 +35,10 @@
     .main-nav ion-icon{
         top: 760px;
         left: 70px;
+    }
+    
+    .to-about {
+        visibility: hidden;
     }
     
     .about{
@@ -222,8 +227,14 @@
     .contact-now {
         margin-left: 50px;
     }
+    .social-link h3{
+        width: 200px;
+    }
+    .social-link p{
+        width: 200px;
+    }
     .address{
-        visibility: hidden;
+        display: none;
     }
     .position{
         margin-left: 50px;
@@ -253,6 +264,7 @@
   overflow: hidden;
   background-color: #333;
   font-family: Arial;
+    visibility: visible;
 }
 
 /* Links inside the navbar */
@@ -337,6 +349,9 @@
         font-size: 300px;
         margin-left: 0px;
         margin-top: 120px;
+    }
+    .navbar{
+        visibility: none;
     }
     .main-nav img{
         height: 400px;
@@ -495,6 +510,7 @@
     .address{
         padding-left: 0px;
     }
+
     .social-link p{
         width: 250px;
     }
@@ -504,6 +520,9 @@
 @media (min-width: 992px) and (max-width: 1119px) {
     .main-nav{
         height: 70vh;
+    }
+    .navbar {
+        visibility: none;
     }
     .main-nav .text-back{
         font-size: 300px;

@@ -19,7 +19,7 @@
 }
 
 .navbar{
-    visibility: none;
+    visibility: hidden;
 }
 
 .contact-btn:visited,
