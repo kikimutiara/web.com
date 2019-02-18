@@ -4,10 +4,15 @@
         max-width: 425px;
     }
     .main-nav img{
-        width: 130%;
-        left: -200px;
-        top: -130px;
+        width: 105%;
+        left: -20px;
         z-index: 0;
+        overflow: hidden;
+    }
+    
+    .main-nav .logo img{
+        width: 40%;
+        left: 0;
     }
     
     .logo a{
@@ -19,17 +24,16 @@
     }
     
     .tag-line{
-        margin-top: 250px;
+        margin-top: -40px;
         width: 300px;
-        margin-right: 0px;
-        margin-left: -100px;
+        margin-left: -120px;
         font-size: 35px;
     }
     
     .description{
-        margin-top: 170px;
+        margin-top: -100px;
         width: 300px;
-        margin-left: -100px;
+        margin-left: -120px;
         font-size: 18px;
     }
     
@@ -38,8 +42,9 @@
         left: 70px;
     }
     
-    .to-about {
-        visibility: hidden;
+    .main-nav ion-icon{
+        top: 57%;
+        left: 10%;
     }
     
     .about{
@@ -219,6 +224,9 @@
         width: 300px;
         font-size: 18px;
     }
+    .know-us img{
+        visibility: hidden;
+    }
     .about{
         margin-top: 50px;
     }
@@ -355,19 +363,23 @@
         visibility: none;
     }
     .main-nav img{
-        height: 400px;
-        width: auto;
+        width: 90%;
         left: 10px;
     }
     .tag-line{
-        left: 73%;
-        top: 30%;
+        left: 55%;
+        top: 20%;
         width: 400px;
+        font-size: 63px;
     }
     .description{
-        left: 73%;
-        top: 55%;
+        left: 55%;
+        top: 40%;
         width: 400px;
+        font-size: 22px;
+    }
+    .to-about{
+        visibility: hidden;
     }
     .about{
         height: 1000px;
@@ -384,6 +396,9 @@
     }
     .about p{
         padding-left: 32%;
+    }
+    .know-us p{
+        width: 50%;
     }
     .course .first{
         margin-left: 2%;
@@ -489,6 +504,9 @@
     .best-tutor p{
         padding-left: 10px;
     }
+    .know-us img{
+        visibility: hidden;
+    }
     .expert td{
         width: 300px;
         padding-left: 100px;
@@ -530,7 +548,13 @@
         margin-left: 0px;
     }
     .main-nav img{
-        left: 100px;
+        left: -30px;
+        top: 24vh;
+        width: 60%;
+    }
+    .main-nav .logo img{
+        top: 0;
+        left: 0;
     }
     .tag-line{
         top: 23%;
