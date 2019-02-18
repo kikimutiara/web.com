@@ -1,3 +1,6 @@
+*{
+    font-family: futura-pt, sans-serif;
+}
 .main-nav{
     background-color: #333232;
     height: 100vh;
@@ -64,11 +67,10 @@
     font-size: 14px;
 }
 .main-nav .text-back{
-    font-family: Futura PT;
     color: rgba(102, 103, 104, 0.19);
     font-size: 480px;
     margin-left: 120px;
-    margin-top: 70px;
+    margin-top: 40px;
     overflow: hidden;
     font-weight: 1000;
 }
